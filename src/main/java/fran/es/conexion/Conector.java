@@ -1,4 +1,4 @@
-package conexion.fran.es;
+package fran.es.conexion;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -39,7 +39,7 @@ public class Conector extends HttpServlet {
 		
 		String password="";
 		
-		String driver="com.mysql.jdbc.Driver";
+		String driver="com.mysql.cj.jdbc.Driver";
 		
 		try {
 			PrintWriter out= response.getWriter();
